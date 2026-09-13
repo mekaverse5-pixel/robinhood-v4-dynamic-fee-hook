@@ -9,6 +9,11 @@
 - Deployment transaction: `0xac76c2c187b93e1c0ee2b11336faa1f031a74bef1b19b96fc620bef0d083fda1`
 - PoolManager: `0x8366a39CC670B4001A1121B8F6A443A643e40951`
 
+Source and ABI are published in this repository:
+
+- Solidity source: [`src/DynamicFeeRebalanceHook.sol`](./src/DynamicFeeRebalanceHook.sol)
+- ABI JSON: [`abi/DynamicFeeRebalanceHook.abi.json`](./abi/DynamicFeeRebalanceHook.abi.json)
+
 ## Functionality
 
 - Per-pool EMA of tick movement drives the dynamic LP fee.
