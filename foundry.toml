@@ -5,6 +5,10 @@ script = "script"
 out = "out"
 cache_path = "cache"
 libs = ["lib"]
+# Keep compiler source paths deterministic and relative. Foundry's automatic
+# transitive remapping discovery can otherwise record the absolute checkout
+# path in verification metadata.
+auto_detect_remappings = false
 solc_version = "0.8.30"
 evm_version = "cancun"
 bytecode_hash = "none"
